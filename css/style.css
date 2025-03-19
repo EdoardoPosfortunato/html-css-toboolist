@@ -1,0 +1,157 @@
+/* RESET */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    border-image: none;
+    appearance: none;
+}
+
+
+/* GENERAL */
+/* LAYOUT */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:larger;
+    background-color: rgb(233, 233, 233);
+}
+
+
+/* HEADER */
+
+.header{
+    background-color: white;
+    height: 90px;
+    padding: 20px 20px;
+}
+
+.title{
+    display: inline-block;
+    font-size: 36px;
+    vertical-align: middle;
+}
+
+.logo{
+    vertical-align: middle;
+}
+
+/* MAIN */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+/* BOTTON SECTION */
+
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    border-style: outset;
+
+}
+
+.button-division{
+    padding: 20px 40px 10px ;
+    border-bottom: 2px solid rgb(233, 233, 233);
+}
+
+/* .button-section{
+    color: gray;
+    background-color: white;
+    border-collapse:collapse;
+    } */
+
+
+
+.button-shape{
+    padding: 12px 15px;
+    border-radius: 10px;
+    font-weight: 800;
+    color: gray;
+    border-color: gray;
+}
+
+/* .button-section{
+    color: gray;
+    background-color: white;
+} */
+
+
+/* LIST SECTION */
+
+.grand-list{
+    margin: 30px;
+}
+
+.list{
+    padding: 30px 20px;
+    marker: none;
+}
+
+li{
+    margin:15px;
+}
+
+.circle{
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    line-height: 23px;
+    text-align: center;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+.check{
+    color: green;
+    font-size: 22px;
+
+}
+
+.cross{
+    border-color: red;
+    color: red;
+    font-size: 22px;
+}
+
+
+.triangle{
+
+}
+
+    /* linguette color */
+.blue{
+    background-color: rgb(0, 143, 179);
+    color: white;
+    border-color: white;
+}
+
+.violet{
+    background-color: rgb(179, 128, 226);
+}
+
+
+.tip{
+    color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 14px;
+    font-size: smaller;
+}
+
